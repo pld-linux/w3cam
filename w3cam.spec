@@ -15,7 +15,7 @@ BuildRequires:	libpng-devel
 Requires:	httpd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_datadir	/home/httpd
+%define	_datadir	/home/services/httpd
 
 %description
 w3cam is a simple CGI to retrieve images from a so called video4linux
