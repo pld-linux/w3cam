@@ -65,7 +65,7 @@ Dzia³a tylko z przegl±darkami Mozilla/Netscape.
 %patch0 -p1
 
 %build
-autoconf
+%{__autoconf}
 CFLAGS="%{rpmcflags} -I/usr/include/freetype"
 %configure \
 	--with-syslog
