@@ -2,13 +2,13 @@ Summary:	CGI application to show image retrieved from a webcam
 Summary(pl):	Aplikacja CGI do pokazywania obrazu ¶ci±gniêtego z kamery
 Name:		w3cam
 Version:	0.7.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Networking/Daemons
-Source0:	http://www.hdk-berlin.de/~rasca/%{name}-%{version}.tar.gz
+Source0:	http://mpx.freeshell.net/%{name}-%{version}.tar.gz
 # Source0-md5:	eec0b301b32bc8e9f65a4e54248c9868
 Patch0:		%{name}-includes.patch
-URL:		http://www.hdk-berlin.de/~rasca/w3cam/
+URL:		http://mpx.freeshell.net/
 BuildRequires:	autoconf
 BuildRequires:	freetype1-devel
 BuildRequires:	libjpeg-devel
@@ -16,7 +16,7 @@ BuildRequires:	libpng-devel
 Requires:	httpd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_datadir	/home/services/httpd
+%define		_datadir	/home/services/httpd
 
 %description
 w3cam is a simple CGI to retrieve images from a so called video4linux
@@ -88,7 +88,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog w3cam.html
+%doc ChangeLog.txt FAQ.txt TODO.txt w3cam.html
 %attr(755,root,root) %{_datadir}/cgi-bin/w3cam.cgi
 %{_datadir}/cgi-bin/w3cam.cgi.scf
 
