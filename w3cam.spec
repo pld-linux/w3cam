@@ -1,4 +1,4 @@
-Summary:	CGI application to show image retrieved from a webcam 
+Summary:	CGI application to show image retrieved from a webcam
 Summary(pl):	Aplikacja CGI do pokazywania obrazu ¶ci±gniêtego z kamery
 Name:		w3cam
 Version:	0.6.8
@@ -45,7 +45,7 @@ vidcat jest prostym narzêdziem do ¶ci±gania obrazów z urz±dzeñ
 video4linux.
 
 %package -n w3camd
-Summary:	Application to show image retrieved from a webcam 
+Summary:	Application to show image retrieved from a webcam
 Summary(pl):	Aplikacja do pokazywania obrazu ¶ci±gniêtego z kamery
 Group:		Networking/Daemons
 
