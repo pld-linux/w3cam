@@ -1,0 +1,11 @@
+--- w3cam/configure.in	Fri Jan 21 11:50:47 2000
++++ w3cam/configure.in-p	Sat Aug 18 15:53:58 2001
+@@ -4,7 +4,7 @@
+ AC_ISC_POSIX
+ 
+ LDFLAGS="$LDFLAGS -L/usr/local/lib -L/usr/local/X11/lib"
+-CFLAGS="$CFLAGS -I/usr/local/include -I/usr/local/X11/include"
++CFLAGS="$CFLAGS -I/usr/include/freetype -I/usr/local/include -I/usr/local/X11/include"
+ 
+ AC_CHECK_LIB(m, pow)
+ AC_CHECK_LIB(z, gzopen)
