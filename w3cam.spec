@@ -9,11 +9,12 @@ Group(de):	Netzwerkwesen/Server
 Group(pl):	Sieciowe/Serwery
 Source0:	http://www.hdk-berlin.de/~rasca/%{name}-%{version}.tar.gz
 Patch0:		%{name}-includes.patch
+URL:		http://www.hdk-berlin.de/~rasca/w3cam/
+BuildRequires:	autoconf
 BuildRequires:	zlib-devel
 BuildRequires:	libpng-devel
 BuildRequires:	libjpeg-devel
 BuildRequires:	freetype1-devel
-URL:		http://www.hdk-berlin.de/~rasca/w3cam/
 Requires:	httpd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -61,7 +62,7 @@ webcam, just like any HTTP server would do.
 
 It only with Mozilla/Netscape browsers.
 
-%description -l pl -n w3camd
+%description -n w3camd -l pl
 w3camd to samodzielny demon który serwuje obrazy wziête z kamery
 internetowej, tak jak by to robi³ serwer HTTP.
 
