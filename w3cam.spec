@@ -1,7 +1,7 @@
 Summary:	CGI application to show image retrieved from a webcam
 Summary(pl):	Aplikacja CGI do pokazywania obrazu ¶ci±gniêtego z kamery
 Name:		w3cam
-Version:	0.6.8
+Version:	0.7.2
 Release:	1
 License:	GPL
 Group:		Networking/Daemons
@@ -9,10 +9,9 @@ Source0:	http://www.hdk-berlin.de/~rasca/%{name}-%{version}.tar.gz
 Patch0:		%{name}-includes.patch
 URL:		http://www.hdk-berlin.de/~rasca/w3cam/
 BuildRequires:	autoconf
-BuildRequires:	zlib-devel
-BuildRequires:	libpng-devel
-BuildRequires:	libjpeg-devel
 BuildRequires:	freetype1-devel
+BuildRequires:	libjpeg-devel
+BuildRequires:	libpng-devel
 Requires:	httpd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -62,11 +61,12 @@ internetowej, tak jak by to robi³ serwer HTTP.
 Dzia³a tylko z przegl±darkami Mozilla/Netscape.
 
 %prep
-%setup -q -n %{name}
+%setup -q
 %patch0 -p1
 
 %build
 autoconf
+CFLAGS="%{rpmcflags} -I/usr/include/freetype"
 %configure \
 	--with-syslog
 %{__make}
