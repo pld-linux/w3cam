@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Networking/Daemons
 Source0:	http://www.hdk-berlin.de/~rasca/%{name}-%{version}.tar.gz
+# Source0-md5:	eec0b301b32bc8e9f65a4e54248c9868
 Patch0:		%{name}-includes.patch
 URL:		http://www.hdk-berlin.de/~rasca/w3cam/
 BuildRequires:	autoconf
