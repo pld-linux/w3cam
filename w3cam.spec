@@ -5,8 +5,6 @@ Version:	0.6.8
 Release:	1
 License:	GPL
 Group:		Networking/Daemons
-Group(de):	Netzwerkwesen/Server
-Group(pl):	Sieciowe/Serwery
 Source0:	http://www.hdk-berlin.de/~rasca/%{name}-%{version}.tar.gz
 Patch0:		%{name}-includes.patch
 URL:		http://www.hdk-berlin.de/~rasca/w3cam/
@@ -38,9 +36,6 @@ To CGI dzia³a tylko z przegl±darkami Mozilla/Netscape.
 Summary:	Application to grab images from a video4linux device
 Summary(pl):	Aplikacja do zrzucania obrazu z urz±dzeñ video4linux
 Group:		Applications/Graphics
-Group(de):	Applikationen/Grafik
-Group(pl):	Aplikacje/Grafika
-Group(pt):	Aplicações/Gráficos
 
 %description -n vidcat
 vidcat is a simple tool to retrieve images from a video4linux device.
@@ -53,8 +48,6 @@ video4linux.
 Summary:	Application to show image retrieved from a webcam 
 Summary(pl):	Aplikacja do pokazywania obrazu ¶ci±gniêtego z kamery
 Group:		Networking/Daemons
-Group(de):	Netzwerkwesen/Server
-Group(pl):	Sieciowe/Serwery
 
 %description -n w3camd
 w3camd is a standalone daemon which serves images grabbed from a
