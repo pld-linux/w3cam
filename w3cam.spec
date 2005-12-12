@@ -67,7 +67,7 @@ Dzia³a tylko z przegl±darkami Mozilla/Netscape.
 
 %build
 %{__autoconf}
-CFLAGS="%{rpmcflags} -I/usr/include/freetype"
+CFLAGS="%{rpmcflags} -I%{_includedir}/freetype"
 %configure \
 	--with-syslog
 %{__make}
