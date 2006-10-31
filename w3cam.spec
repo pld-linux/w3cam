@@ -1,3 +1,4 @@
+# TODO: webapps or so
 Summary:	CGI application to show image retrieved from a webcam
 Summary(pl):	Aplikacja CGI do pokazywania obrazu ¶ci±gniêtego z kamery
 Name:		w3cam
