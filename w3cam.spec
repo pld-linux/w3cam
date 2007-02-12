@@ -1,6 +1,6 @@
 # TODO: webapps or so
 Summary:	CGI application to show image retrieved from a webcam
-Summary(pl.UTF-8):   Aplikacja CGI do pokazywania obrazu ściągniętego z kamery
+Summary(pl.UTF-8):	Aplikacja CGI do pokazywania obrazu ściągniętego z kamery
 Name:		w3cam
 Version:	0.7.2
 Release:	4
@@ -35,7 +35,7 @@ To CGI działa tylko z przeglądarkami Mozilla/Netscape.
 
 %package -n vidcat
 Summary:	Application to grab images from a video4linux device
-Summary(pl.UTF-8):   Aplikacja do zrzucania obrazu z urządzeń video4linux
+Summary(pl.UTF-8):	Aplikacja do zrzucania obrazu z urządzeń video4linux
 Group:		Applications/Graphics
 
 %description -n vidcat
@@ -47,7 +47,7 @@ video4linux.
 
 %package -n w3camd
 Summary:	Application to show image retrieved from a webcam
-Summary(pl.UTF-8):   Aplikacja do pokazywania obrazu ściągniętego z kamery
+Summary(pl.UTF-8):	Aplikacja do pokazywania obrazu ściągniętego z kamery
 Group:		Networking/Daemons
 
 %description -n w3camd
