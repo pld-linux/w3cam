@@ -1,6 +1,6 @@
 # TODO: webapps or so
 Summary:	CGI application to show image retrieved from a webcam
-Summary(pl):	Aplikacja CGI do pokazywania obrazu ¶ci±gniêtego z kamery
+Summary(pl.UTF-8):   Aplikacja CGI do pokazywania obrazu Å›ciÄ…gniÄ™tego z kamery
 Name:		w3cam
 Version:	0.7.2
 Release:	4
@@ -26,28 +26,28 @@ which support a video4linux-device.
 
 This CGI works only with Mozilla/Netscape browsers.
 
-%description -l pl
-w3cam to proste CGI do ¶ci±gania obrazów z tzw. urz±dzeñ video4linux.
-Innymi s³owy ten program zadzia³a tylko na Linuksie z obs³ug± takich
-urz±dzeñ.
+%description -l pl.UTF-8
+w3cam to proste CGI do Å›ciÄ…gania obrazÃ³w z tzw. urzÄ…dzeÅ„ video4linux.
+Innymi sÅ‚owy ten program zadziaÅ‚a tylko na Linuksie z obsÅ‚ugÄ… takich
+urzÄ…dzeÅ„.
 
-To CGI dzia³a tylko z przegl±darkami Mozilla/Netscape.
+To CGI dziaÅ‚a tylko z przeglÄ…darkami Mozilla/Netscape.
 
 %package -n vidcat
 Summary:	Application to grab images from a video4linux device
-Summary(pl):	Aplikacja do zrzucania obrazu z urz±dzeñ video4linux
+Summary(pl.UTF-8):   Aplikacja do zrzucania obrazu z urzÄ…dzeÅ„ video4linux
 Group:		Applications/Graphics
 
 %description -n vidcat
 vidcat is a simple tool to retrieve images from a video4linux device.
 
-%description -n vidcat -l pl
-vidcat jest prostym narzêdziem do ¶ci±gania obrazów z urz±dzeñ
+%description -n vidcat -l pl.UTF-8
+vidcat jest prostym narzÄ™dziem do Å›ciÄ…gania obrazÃ³w z urzÄ…dzeÅ„
 video4linux.
 
 %package -n w3camd
 Summary:	Application to show image retrieved from a webcam
-Summary(pl):	Aplikacja do pokazywania obrazu ¶ci±gniêtego z kamery
+Summary(pl.UTF-8):   Aplikacja do pokazywania obrazu Å›ciÄ…gniÄ™tego z kamery
 Group:		Networking/Daemons
 
 %description -n w3camd
@@ -56,11 +56,11 @@ webcam, just like any HTTP server would do.
 
 It only with Mozilla/Netscape browsers.
 
-%description -n w3camd -l pl
-w3camd to samodzielny demon który serwuje obrazy wziête z kamery
-internetowej, tak jak by to robi³ serwer HTTP.
+%description -n w3camd -l pl.UTF-8
+w3camd to samodzielny demon ktÃ³ry serwuje obrazy wziÄ™te z kamery
+internetowej, tak jak by to robiÅ‚ serwer HTTP.
 
-Dzia³a tylko z przegl±darkami Mozilla/Netscape.
+DziaÅ‚a tylko z przeglÄ…darkami Mozilla/Netscape.
 
 %prep
 %setup -q
