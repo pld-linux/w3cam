@@ -64,7 +64,7 @@ Działa tylko z przeglądarkami Mozilla/Netscape.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__autoconf}
